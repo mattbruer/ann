@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  /* padding: 0.2rem; */
+  font-family: 'Crimson Text', serif;
+}
+
+.navbar {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  position: fixed;
+  top: 0px;
+  height: 100px;
+  width: 100vw;
+  background-color: aliceblue;
+}
+
+.headshot-container {
+  border: 1px solid grey;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}

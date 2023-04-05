@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  /* padding: 0.2rem; */
+  font-family: 'Crimson Text', serif;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.navbar {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  position: fixed;
+  top: 0px;
+  height: 100px;
+  width: 100vw;
+  background-color: aliceblue;
+}
+
+.contact a {
+  display: block;
+}
+body {
+  background-color: rgb(244, 241, 241);
+}
+.page {
+  padding: 10px;
+}
+.header {
+  background-color: rgb(232, 230, 227);
+  text-align: center;
+}
+
+.section {
+  margin-bottom: 15px;
+  padding: 5px;
+  box-shadow: 0px 0px 2px grey;
+  background-color: white;
+  border-radius: 5px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.section-title {
+  text-align: left;
+  text-decoration: underline;
+  font-size: 2rem;
+}
+
+.section-content {
+  margin-bottom: 20px;
+}
+.section-left {
+  width: 90%;
+  margin-right: 30px;
+}
+
+.section-right {
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.section-right h3 {
+  font-weight: lighter;
+}
+
+.section-subtext {
+  margin-left: 10px;
+}
+
+ul .section-subtext {
+  font-weight: bolder;
+}
+
+.section-header-date {
+  display: flex;
+}
+
+h4 {
+  font-weight: lighter;
+  font-style: italic;
+}
+.contact {
+  border-bottom: 1px solid grey;
+  text-align: center;
+}
+
+.sublist {
+  margin-left: 10px;
+}
+.education-content {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 1rem;
+}
