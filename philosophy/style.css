@@ -4,3 +4,8 @@
   /* padding: 0.2rem; */
   font-family: 'Crimson Text', serif;
 }
+
+p {
+  text-indent: 25px;
+  margin: 20px;
+}

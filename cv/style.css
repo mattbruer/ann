@@ -10,8 +10,11 @@
 }
 
 .navbar {
+  display: flex;
+  padding: 0px 15px 0px 15px;
+  align-items: center;
+  justify-content: space-around;
   border-bottom: 1px solid black;
-  padding-bottom: 10px;
   position: fixed;
   top: 0px;
   height: 100px;
@@ -19,9 +22,25 @@
   background-color: aliceblue;
 }
 
-.contact a {
-  display: block;
+.navbar a {
+  margin: 0px 2px 0px 2px;
+  text-decoration: none;
+  text-align: center;
 }
+
+.contact {
+  padding: 10px;
+}
+.contact a {
+  display: inline-block;
+  margin: auto;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
 body {
   background-color: rgb(244, 241, 241);
 }
@@ -98,4 +117,10 @@ h4 {
   justify-content: space-between;
 
   margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 780px) {
+  .navbar a {
+    display: none;
+  }
 }

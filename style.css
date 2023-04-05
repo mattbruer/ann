@@ -5,6 +5,9 @@
   font-family: 'Crimson Text', serif;
 }
 
+.container {
+  margin-top: 100px;
+}
 .navbar {
   border-bottom: 1px solid black;
   padding-bottom: 10px;
@@ -17,13 +20,16 @@
 
 .headshot-container {
   border: 1px solid grey;
+
   border-radius: 50%;
   overflow: hidden;
-  width: 200px;
-  height: 200px;
+  width: 50vw;
+
+  display: flex;
+  box-shadow: 0px 0px 15px black;
 }
 
-img {
+/* img {
   width: 200px;
   height: 200px;
-}
+} */
