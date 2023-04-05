@@ -7,20 +7,56 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Dancing+Script:wght@600&display=swap"
       rel="stylesheet"
     />
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="../shared.css" />
+    <script src="../script.js" defer></script>
   </head>
   <body>
+    <div class="backdrop"></div>
     <div class="navbar">
-      <h1>Ann Bruer</h1>
-      <a href="./about-me/">About Me</a>
-      <a href="./philosophy/">Philosophy</a>
-      <a href="./standards/">Standards of Practice</a>
-      <a href="./scope/">Scope of Practice</a>
-      <a href="./preceptors/">Preceptors</a>
+      <a href="/"><h1>Ann Bruer</h1></a>
+      <a class="nav-links" href="../about-me/">About Me</a>
+      <a class="nav-links" href="../philosophy/">Philosophy</a>
+      <a class="nav-links" href="../standards/">Standards of Practice</a>
+      <a class="nav-links" href="../scope/">Scope of Practice</a>
+      <a class="nav-links" href="../preceptors/">Preceptors</a>
+      <a class="nav-links" id="selected" href="#">CV</a>
+      <button class="toggle-button">
+        <span class="toggle-button__bar"></span>
+        <span class="toggle-button__bar"></span>
+        <span class="toggle-button__bar"></span>
+      </button>
+    </div>
+    <div class="mobile-nav">
+      <ul class="mobile-navlinks">
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="../about-me/">About Me</a>
+        </li>
+        <li>
+          <a href="../philosophy/">Philosophy</a>
+        </li>
+
+        <li>
+          <a href="./standards">Standard of Practice</a>
+        </li>
+        <li>
+          <a href="../scope/">Scope of Practice</a>
+        </li>
+
+        <li>
+          <a href="../preceptors/">Preceptors</a>
+        </li>
+        <li>
+          <a id="selected" href="#">CV</a>
+        </li>
+      </ul>
     </div>
 
     <div class="container">

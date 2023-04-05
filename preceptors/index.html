@@ -5,27 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Dancing+Script:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="../shared.css" />
+    <script src="../script.js" defer></script>
   </head>
   <body>
-    <h1>Preceptors</h1>
-
-    <div>
-      <h2>Justin Halberstadt, APRN</h2>
-      <h3>KU MedWest</h3>
-      <h3>7405 Renner Rd.</h3>
-      <h3>Shawnee, KS 66217</h3>
-
-      <h3>Phone: +1 (913) 588-1227</h3>
-      <h3>Email: jhalberstadt@kumc.edu</h3>
+    <div class="backdrop"></div>
+    <div class="navbar">
+      <a href="/"><h1>Ann Bruer</h1></a>
+      <a class="nav-links" href="../about-me/">About Me</a>
+      <a class="nav-links" href="../philosophy/">Philosophy</a>
+      <a class="nav-links" href="../standards/">Standards of Practice</a>
+      <a class="nav-links" href="../scope/">Scope of Practice</a>
+      <a class="nav-links" id="selected" href="#">Preceptors</a>
+      <a class="nav-links" href="../cv/">CV</a>
+      <button class="toggle-button">
+        <span class="toggle-button__bar"></span>
+        <span class="toggle-button__bar"></span>
+        <span class="toggle-button__bar"></span>
+      </button>
     </div>
-    <hr />
-    <div>
-      <h2>Walter Ingram, MD</h2>
-      <h3>Reed Internal Medicine Lawrence Memorial Hospital</h3>
-      <h3>404 Maine</h3>
-      <h3>Lawrence, KS 66044</h3>
-      <h3>Phone: 785-505-5635</h3>
-      <h3>Email: Walter.Ingram@lmh.org</h3>
+    <div class="mobile-nav">
+      <ul class="mobile-navlinks">
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="../about-me/">About Me</a>
+        </li>
+        <li>
+          <a href="../philosophy/">Philosophy</a>
+        </li>
+
+        <li>
+          <a href="../standards/">Standard of Practice</a>
+        </li>
+        <li>
+          <a href="../scope/">Scope of Practice</a>
+        </li>
+
+        <li>
+          <a id="selected" href="#">Preceptors</a>
+        </li>
+        <li>
+          <a href="../cv/">CV</a>
+        </li>
+      </ul>
+    </div>
+    <div class="container">
+      <h1>Preceptors</h1>
+
+      <div class="card">
+        <h2>Justin Halberstadt, APRN</h2>
+        <h3>KU MedWest</h3>
+        <h3>7405 Renner Rd.</h3>
+        <h3>Shawnee, KS 66217</h3>
+
+        <a href="tel: 913-588-1227">Phone: (913) 588-1227</a>
+        <h3>Email: jhalberstadt@kumc.edu</h3>
+      </div>
+
+      <div class="card">
+        <h2>Walter Ingram, MD</h2>
+        <h3>Reed Internal Medicine Lawrence Memorial Hospital</h3>
+        <h3>404 Maine</h3>
+        <h3>Lawrence, KS 66044</h3>
+        <h3>Phone: (785)505-5635</h3>
+        <h3>Email: Walter.Ingram@lmh.org</h3>
+      </div>
     </div>
   </body>
 </html>
