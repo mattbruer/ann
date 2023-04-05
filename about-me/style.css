@@ -4,3 +4,17 @@
   /* padding: 0.2rem; */
   font-family: 'Crimson Text', serif;
 }
+.container {
+  margin: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0px 0px 5px black;
+  border-radius: 5px;
+}
+.container h1 {
+  text-align: center;
+}
+
+p {
+  text-indent: 25px;
+  margin: 20px;
+}
