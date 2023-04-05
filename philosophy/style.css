@@ -18,20 +18,3 @@ p {
   text-indent: 25px;
   margin: 20px;
 }
-
-body {
-  animation: fadeInAnimation ease 0.5s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-
-@keyframes fadeInAnimation {
-  0% {
-    opacity: 0;
-    padding: 100px;
-  }
-  100% {
-    opacity: 1;
-    padding: 0px;
-  }
-}

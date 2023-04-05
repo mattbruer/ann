@@ -20,7 +20,7 @@ a {
   margin-left: 5px;
 }
 
-body {
+/* body {
   animation: fadeInAnimation ease 0.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -35,4 +35,4 @@ body {
     opacity: 1;
     padding: 0px;
   }
-}
+} */
