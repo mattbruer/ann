@@ -93,6 +93,10 @@ a {
   height: 100vh;
   background: rgba(0, 0, 0, 0.5);
 }
+
+.navbar {
+  margin: 0px;
+}
 @media screen and (max-width: 780px) {
   .nav-links {
     display: none;
