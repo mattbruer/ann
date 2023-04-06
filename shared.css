@@ -110,7 +110,7 @@ a {
 .mobile-nav {
   display: none;
   position: fixed;
-  z-index: 101;
+  z-index: 1001;
   top: 0;
   right: 0;
   padding-top: 25px;
