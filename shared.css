@@ -66,21 +66,70 @@ a {
 }
 
 .mobile-nav {
+  animation: drawerAnimation 0.2s ease-in-out forwards;
+}
+
+.mobile-navlinks {
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes grow {
+  0% {
+    font-size: 0;
+  }
+
+  100% {
+    font-size: 25px;
+  }
+}
+
+@keyframes drawerAnimation {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  100% {
+    width: 50vw;
+    opacity: 1;
+  }
+}
+
+.navbar {
+  z-index: 1000;
+}
+
+.mobile-nav {
   display: none;
   position: fixed;
   z-index: 101;
   top: 0;
   right: 0;
+  padding-top: 25px;
   background: white;
   width: 50%;
   height: 100vh;
-  box-shadow: 0px 0px 6px black;
+  box-shadow: 0px 0px 66px 5px rgb(19, 20, 20);
 }
+
+/* .mobile-nav ul {
+  padding: 0px;
+  
+} */
 
 .mobile-navlinks li {
   font-size: 30px;
   list-style-type: none;
   margin-top: 20px;
+  animation: grow 0.5s ease-in-out forwards;
 }
 
 .backdrop {
