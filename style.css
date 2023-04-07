@@ -27,16 +27,17 @@ body {
   border: 1px solid rgb(18, 18, 18);
   max-height: 120px;
   display: flex;
-  box-shadow: 0px 0px 15px 5px rgb(14, 13, 13);
+  box-shadow: 0px 0px 5px 2px rgb(14, 13, 13);
 }
 
 .disc-disc {
   border-radius: 50%;
   /* background: url('/images/clouds.jpeg'); */
+  border: 5px solid rgb(229, 170, 31);
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: rgb(178, 243, 231);
-  box-shadow: inset 0px 0px 5px black, 0px 0px 25px black;
+  box-shadow: inset 0px 0px 5px 2px black, 0px 0px 15px 2px black;
 }
 .nav-disc-container {
   display: flex;
@@ -47,18 +48,23 @@ body {
   align-items: center;
 }
 
+.nav-disc:hover {
+  height: 103px;
+
+  font-size: 17px;
+}
 .nav-disc {
   height: 100px;
   min-width: 100px;
-
+  border: 1px solid black;
   margin: 10px 0px 10px 0px;
-  border: 1px solid grey;
+
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   animation: expand 1s ease forwards;
-  box-shadow: 0px 0px 15px rgb(104, 102, 102), inset 0px 0px 10px black;
+  box-shadow: 0px 0px 5px 1px rgb(7, 7, 7), inset 0px 0px 5px black;
 }
 
 .hello h1 {
