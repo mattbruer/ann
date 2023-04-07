@@ -7,7 +7,8 @@
 }
 
 body {
-  background-color: rgb(254, 246, 237);
+  /* background-color: rgb(254, 246, 237); */
+  background: rgb(251, 228, 219);
 }
 
 .container {
@@ -23,9 +24,9 @@ body {
   position: relative;
   border-radius: 50%;
   overflow: hidden;
-  min-width: 120px;
+  width: 125px;
+  height: 125px;
   border: 1px solid rgb(18, 18, 18);
-  max-height: 120px;
   display: flex;
   box-shadow: 0px 0px 5px 2px rgb(14, 13, 13);
 }
@@ -33,17 +34,25 @@ body {
 .disc-disc {
   border-radius: 50%;
   /* background: url('/images/clouds.jpeg'); */
+  animation: expand 0.5s ease forwards;
   border: 5px solid rgb(229, 170, 31);
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: rgb(178, 243, 231);
+  background: rgb(208, 238, 201);
+  background: linear-gradient(
+    177deg,
+    rgba(18, 238, 201, 0.4) 18%,
+    rgba(241, 205, 196, 1) 56%,
+    rgba(30, 196, 241, 1) 99%
+  );
+
   box-shadow: inset 0px 0px 5px 2px black, 0px 0px 15px 2px black;
 }
 .nav-disc-container {
   display: flex;
-  max-height: 100px;
-  max-width: 300px;
-
+  max-height: 105px;
+  max-width: 340px;
+  animation: expand 0.5s ease forwards;
   justify-content: center;
   align-items: center;
 }
@@ -83,10 +92,12 @@ body {
 }
 #cv {
   background-color: rgb(236, 242, 201);
+
   margin-right: 5px;
 }
 #about {
   background-color: rgb(174, 245, 245);
+
   margin-right: 5px;
 }
 #philosophy {
