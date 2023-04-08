@@ -9,6 +9,12 @@
 body {
   /* background-color: rgb(254, 246, 237); */
   background: rgb(251, 228, 219);
+  /* background: linear-gradient(
+    135deg,
+    rgb(248, 191, 168) 0%,
+    rgb(241, 214, 206) 76%,
+    rgba(255, 254, 254, 1) 98%
+  ); */
 }
 
 .container {
@@ -18,7 +24,7 @@ body {
   align-items: center;
   margin-top: 70px;
   padding: 8vw;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 .headshot-container {
@@ -28,18 +34,19 @@ body {
 
   width: 145px;
   height: 145px;
-  border: 1px solid rgb(18, 18, 18);
+  border: 1px solid rgb(31, 31, 30);
   display: flex;
-  box-shadow: 0px 0px 5px 2px rgb(14, 13, 13);
+  box-shadow: 0px 0px 15px 2px rgb(14, 13, 13);
 }
 
 .disc-disc {
   border-radius: 50%;
   /* background: url('/images/clouds.jpeg'); */
   animation: expand 0.5s ease forwards;
-  border: 5px solid rgb(229, 170, 31);
+  border: 3px solid rgb(229, 170, 31);
   padding-top: 10px;
   padding-bottom: 10px;
+
   background: rgb(208, 238, 201);
   background: linear-gradient(
     177deg,
@@ -62,6 +69,7 @@ body {
 .nav-disc:hover {
   background-color: rgba(255, 255, 255) !important;
   font-size: 17px;
+  box-shadow: inset 0px 0px 10px rgb(186, 73, 73);
 }
 .nav-disc {
   height: 100px;
@@ -144,6 +152,7 @@ img {
     flex-direction: column;
   }
 }
+
 /* @keyframes img {
   0% {
     width: 0;
