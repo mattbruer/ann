@@ -26,8 +26,8 @@ body {
   border-radius: 50%;
   overflow: hidden;
 
-  width: 135px;
-  height: 135px;
+  width: 145px;
+  height: 145px;
   border: 1px solid rgb(18, 18, 18);
   display: flex;
   box-shadow: 0px 0px 5px 2px rgb(14, 13, 13);
