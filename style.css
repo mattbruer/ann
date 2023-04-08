@@ -25,10 +25,9 @@ body {
   position: relative;
   border-radius: 50%;
   overflow: hidden;
-  /* width: 125px;
-  height: 125px; */
-  width: 155px;
-  height: 155px;
+
+  width: 145px;
+  height: 145px;
   border: 1px solid rgb(18, 18, 18);
   display: flex;
   box-shadow: 0px 0px 5px 2px rgb(14, 13, 13);
@@ -53,7 +52,7 @@ body {
 }
 .nav-disc-container {
   display: flex;
-  max-height: 125px;
+  max-height: 115px;
 
   animation: expand 0.5s ease forwards;
   justify-content: center;
@@ -65,8 +64,8 @@ body {
   font-size: 17px;
 }
 .nav-disc {
-  height: 125px;
-  min-width: 125px;
+  height: 110px;
+  min-width: 110px;
   border: 1px solid black;
   margin: 10px 0px 10px 0px;
 
