@@ -73,9 +73,11 @@ body {
 
 .nav-disc:hover {
   background-color: rgba(255, 255, 255) !important;
+  color: blue !important;
   font-size: 17px;
   box-shadow: inset 0px 0px 10px rgb(186, 73, 73);
 }
+
 .nav-disc {
   height: 100px;
   min-width: 100px;
@@ -90,7 +92,7 @@ body {
   box-shadow: 0px 0px 5px 1px rgb(7, 7, 7), inset 0px 0px 5px black;
 }
 
-.hello h1 {
+#hello {
   font-size: 75px;
   font-family: 'Dancing Script', cursive;
 }
@@ -104,6 +106,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* box-shadow: 0px 0px 15px black;
+  background-color: rgba(240, 248, 255, 0.5);
+  margin: 15px 0px 0px 15px;
+  border-radius: 10px; */
 }
 #cv {
   background-color: rgb(236, 242, 201);
@@ -155,6 +161,15 @@ img {
 @media screen and (max-width: 780px) {
   .container {
     flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .a-bit {
+    font-size: larger;
+  }
+  #hello {
+    font-size: 90px;
   }
 }
 
