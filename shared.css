@@ -74,6 +74,7 @@ a {
 }
 
 .mobile-navlinks {
+  margin-right: 10px;
   animation: fadeIn 1s ease-in-out forwards;
 }
 
