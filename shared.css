@@ -102,7 +102,6 @@ a {
     opacity: 0;
   }
   100% {
-    width: 50vw;
     opacity: 1;
   }
 }
