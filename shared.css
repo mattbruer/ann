@@ -55,7 +55,7 @@ a {
   padding-top: 0;
   padding-bottom: 0;
   vertical-align: middle;
-  display: none;
+  display: inline;
 }
 .toggle-button__bar {
   width: 100%;
@@ -116,6 +116,10 @@ a {
   z-index: 1000;
 }
 
+.nav-links {
+  display: none;
+}
+
 .mobile-nav {
   display: none;
   position: fixed;
@@ -164,13 +168,13 @@ a {
   box-shadow: 0px 0px 5px black;
 }
 @media screen and (max-width: 1200px) {
-  .nav-links {
+  /* .nav-links {
     display: none;
   }
 
   .toggle-button {
     display: inline;
-  }
+  } */
   .navbar {
     justify-content: space-between;
   }
