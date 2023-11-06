@@ -175,7 +175,4 @@ a {
   .toggle-button {
     display: inline;
   } */
-  .navbar {
-    justify-content: space-between;
-  }
 }
