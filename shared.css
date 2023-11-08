@@ -74,12 +74,12 @@ a {
 }
 
 .mobile-navlinks {
-  margin-right: 30px;
+  margin-right: 10px;
   animation: fadeIn 1s ease-in-out forwards;
 }
 
 .mobile-navlinks li {
-  margin: 5px !important;
+  margin: 5px 0px !important;
   border-bottom: 1px solid black;
 }
 
@@ -139,12 +139,17 @@ a {
 } */
 
 .mobile-navlinks li {
-  font-size: 30px;
   list-style-type: none;
-  margin-top: 20px;
   animation: grow 0.5s ease-in-out forwards;
 }
 
+.mobile-navlinks a {
+  font-size: 1rem;
+}
+
+.mobile-navlinks {
+  padding-left: 10px;
+}
 .backdrop {
   position: fixed;
   display: none;
